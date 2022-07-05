@@ -1,0 +1,35 @@
+html{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+}
+body{
+    background-image: url("images/animecollage.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100%;
+    margin:0;
+    padding:0;
+    /* border:solid 1px green; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+div{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    border:white 2px solid;
+    background-color:rgba(1,1,1,0.7)
+}
+h1{
+    color:rgb(53, 94, 230);
+    align-self:center;
+}
+form{
+    align-self:center;
+}
+.bat{
+    border:solid 2px blue;
+}
